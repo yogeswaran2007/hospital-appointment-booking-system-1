@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Appointment | Vetri Multi Speciality Hospital</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h2>
+<i class="fa-solid fa-hospital"></i>
+Vetri Multi Speciality Hospital
+</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="doctors.html">Doctors</a></li>
+
+<li><a href="appointment.html">Appointment</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li><a href="login.html">Login</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="form-container">
+
+<h2>Book an Appointment</h2>
+
+<form id="appointmentForm">
+
+<input
+type="text"
+id="patientName"
+placeholder="Patient Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+<select id="department" required>
+
+<option value="">Select Department</option>
+
+<option>Cardiology</option>
+
+<option>Neurology</option>
+
+<option>Orthopaedics</option>
+
+<option>Pediatrics</option>
+
+<option>Dermatology</option>
+
+<option>ENT</option>
+
+</select>
+
+<select id="doctor" required>
+
+<option value="">Select Doctor</option>
+
+<option>Dr. Arun Kumar</option>
+
+<option>Dr. Priya Sharma</option>
+
+<option>Dr. Ravi Kumar</option>
+
+</select>
+
+<input
+type="date"
+id="appointmentDate"
+required>
+
+<input
+type="time"
+id="appointmentTime"
+required>
+
+<textarea
+id="symptoms"
+placeholder="Describe your symptoms"
+required></textarea>
+
+<button type="submit">
+
+Book Appointment
+
+</button>
+
+</form>
+
+</div>
+
+<script src="js/appointment.js"></script>
+
+</body>
+
+</html>
