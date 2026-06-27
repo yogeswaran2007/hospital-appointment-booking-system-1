@@ -1,0 +1,166 @@
+/* ====================================
+   Vetri Multi Speciality Hospital
+   style.css - Part 1
+==================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f9ff;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    width:100%;
+    background:#0077b6;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.logo h2{
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo i{
+    color:#00e5ff;
+    margin-right:8px;
+}
+
+/* Navigation */
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ffd60a;
+}
+
+.login-btn{
+    background:white;
+    color:#0077b6;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:600;
+}
+
+.login-btn:hover{
+    background:#ffd60a;
+    color:#000;
+}
+
+/* Hero Section */
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),
+    rgba(0,0,0,.55)),
+    url("../images/hospital.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+
+}
+
+.hero-content{
+
+    max-width:800px;
+
+}
+
+.hero h1{
+
+    font-size:52px;
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+    margin-bottom:35px;
+
+}
+
+/* Buttons */
+
+.btn{
+
+    display:inline-block;
+
+    background:#00b4d8;
+
+    color:white;
+
+    padding:14px 30px;
+
+    margin:10px;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    transition:.4s;
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    background:#0096c7;
+
+    transform:translateY(-4px);
+
+}
+
+.btn-secondary{
+
+    background:#28a745;
+
+}
+
+.btn-secondary:hover{
+
+    background:#218838;
+
+}
