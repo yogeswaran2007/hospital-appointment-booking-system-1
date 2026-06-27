@@ -271,3 +271,131 @@ nav ul li a:hover{
 .doctor-card .btn{
     margin-bottom:20px;
 }
+/* ====================================
+   Why Choose Us Section
+==================================== */
+
+.why-us{
+    padding:80px 8%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.why-us h2{
+    font-size:38px;
+    color:#0077b6;
+    margin-bottom:50px;
+}
+
+.why-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.why-card{
+    width:250px;
+    background:#f8fbff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,119,182,.25);
+}
+
+.why-card i{
+    font-size:50px;
+    color:#0077b6;
+    margin-bottom:20px;
+}
+
+.why-card h3{
+    margin-bottom:15px;
+    color:#0077b6;
+}
+
+.why-card p{
+    color:#555;
+}
+
+/* ====================================
+   Testimonials Section
+==================================== */
+
+.testimonials{
+    padding:80px 8%;
+    background:#eef8ff;
+    text-align:center;
+}
+
+.testimonials h2{
+    font-size:38px;
+    color:#0077b6;
+    margin-bottom:50px;
+}
+
+.testimonial-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.testimonial-card{
+    width:320px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+}
+
+.testimonial-card p{
+    font-style:italic;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.testimonial-card h4{
+    color:#0077b6;
+}
+
+/* ====================================
+   Emergency Section
+==================================== */
+
+.emergency{
+    background:#0077b6;
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.emergency h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.emergency p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.emergency .btn{
+    background:#ffffff;
+    color:#0077b6;
+}
+
+.emergency .btn:hover{
+    background:#ffd60a;
+    color:#000;
+}
